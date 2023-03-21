@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         New refresh1
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       Kane
+// @match        http://59.69.102.9/zgyw/study/LearningIndex.aspx
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=whut.edu.cn
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    setTimeout(()=>{
+       location.reload()
+    },900000);
+    // time=900k ms
+})();
